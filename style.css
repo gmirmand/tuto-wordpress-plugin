@@ -1,0 +1,70 @@
+.help-popin {
+    position: fixed;
+    font-family: Arial, sans-serif;
+    z-index: 1;
+}
+
+.help-popin.top-left {
+    top: 2em;
+    left: 2em;
+}
+
+.help-popin.top-left .help__container.card {
+    top: 0;
+    left: 0;
+}
+
+.help-popin.top-right {
+    top: 2em;
+    right: 2em;
+}
+
+.help-popin.top-right .help__container.card {
+    top: 0;
+    right: 0;
+}
+
+.help-popin.bottom-right {
+    bottom: 2em;
+    right: 2em;
+}
+
+.help-popin.bottom-right .help__container.card {
+    bottom: 0;
+    right: 0;
+}
+
+.help-popin.bottom-left {
+    bottom: 2em;
+    left: 2em;
+}
+
+.help-popin.bottom-left .help__container.card {
+    bottom: 0;
+    left: 0;
+}
+
+.help-popin .help-popin__icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.help__container.card {
+    width: 16em;
+    max-height: 80vh;
+    position: absolute;
+    border-radius: 1.375em;
+    padding: 1em 2.5em;
+}
+
+.help__description {
+    font-size: 14px;
+    line-height: 1.2;
+}
